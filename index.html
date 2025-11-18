@@ -2,29 +2,82 @@
 <html lang="en">
 <!--Website title-->
 <head>
-    <title>Great Cliff's</title>
+    <title>Great Cliffs of California</title>
     <meta charset="utf-8">
+    <style>
+        /* Header */
+        header {
+            width:100%;
+            min-height:400px;
+            padding-top: 3em;
+        }
+        /* Body - header */
+        #home header {
+            background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+            background-size: 1500px;
+        }
+        .main-header{
+            background-color: rgba(255,255,255, 0.8);
+            width:700px;
+            margin: 2em auto 0 auto;
+            min-height: 100px;
+            height: 100px;
+        }
+        .main-header .logo img {
+            width: 100px;
+            height: 100px;
+            margin: 0 2em 0 0;
+            float: left;
+        }
+        /* Reposition nav menu */
+        .main-menu {
+            margin-left: 227px;
+            font-weight: 400;
+        }
+        /* Navigation */
+        .main-menu ul li {
+            list-style-type: none;
+            display: inline-block;
+            float: left;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-left: 1px solid rgba(202, 204, 202, 0.6);
+            line-height: 100px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        /* Hypertext links in nav menu */
+        .main-menu ul li a {
+            text-decoration: none;
+            color: #888;
+        }
+        .main-menu ul li a:hover {
+            color: #9ed034;
+        }
+
+    </style>
+    
 </head>
-<body>
+<body id ="home">
     <!--Container to Wrap Everything-->
     <div id="container">
         <header>
-        <img src="images/cliff_ocean.jpg" alt="Ocean View Cliff" width="1280" height="564">
             <div class="main-header">
                 <div class="logo">
-                    <img src="images/logo.png" alt="Great Cliffs Logo" width="125"">
+                    <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
                 </div>
-                <!--Main navigation-->
+                <!--Main navigation menu-->
                 <nav class="main-menu">
                     <ul>
-                        <li>Home</li>
+                        <li><a href="index.html">Home</a></li>
                         <li>Cliffs</li>
-                        <li>Activities</li>
-                        <li>Contact</li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="contact.html">Contact </a></li>
                     </ul>
                 </nav>
             </div>
-        </header>
+        </header> <!--End of Header-->
+        
         <!--Main Content-->
         <main>
             <h2>Introducing California's Greatest Cliffs</h2>
