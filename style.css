@@ -161,7 +161,7 @@
           background: #125688;
           color: white;
       }
-
+      /* Activities Page Table */
       table {
           width: 1000px;
           margin: 4em auto 0 auto;
@@ -199,3 +199,129 @@
         font-weight: bold;
         background: #BDE1FF;
       }
+          /* Contact Page Main */
+          #contact main {
+              font-family: Arial, Helvetica, sans-serif;
+              width: 80%;
+              margin: 20px auto 40px;
+          }
+    
+          /* h1 - Contacting Us */
+          #contact main h1 {
+              color: #9ed034;
+              font-size: 32px;
+              text-align: left;
+              margin-bottom: 10px;
+          }
+    
+          /* paragraph under heading */
+          #contact main>p {
+              font-size: 14px;
+              margin-bottom: 15px;
+          }
+    
+          #contact .contactinfo {
+              margin: 20px 0;
+          }
+    
+          #contact .contactinfo .phone {
+              margin-bottom: 8px;
+          }
+    
+          #contact .contactinfo .email {
+              margin-bottom: 3px;
+          }
+    
+          #contact .contactinfo span:first-child {
+              font-weight: bold;
+          }
+    
+          /* Form box */
+          #contact form fieldset {
+              border: 2px solid #9ed034;
+              padding: 20px;
+              background-color: #fff;
+          }
+    
+          #contact form legend {
+              color: #4977D1;
+              font-weight: bold;
+              text-transform: uppercase;
+              font-size: 14px;
+          }
+    
+          #contact form .textbox label {
+              display: block;
+              font-weight: bold;
+              font-size: 14px;
+              margin-top: 10px;
+          }
+    
+          #contact form .textbox input {
+              width: 59%;
+              height: 28px;
+              border: 2px solid #999;
+              padding: 3px;
+              display: block;
+              margin-bottom: 10px;
+          }
+    
+          #contact form .radios {
+              margin-top: 15px;
+              font-size: 14px;
+          }
+    
+          #contact form .radios label {
+              font-weight: bold;
+              margin-right: 5px;
+          }
+    
+          #contact form .selectmenu {
+              margin-top: 15px;
+              font-size: 14px;
+          }
+    
+          #contact form .selectmenu label {
+              font-weight: bold;
+              margin-right: 5px;
+          }
+    
+          #contact form .selectmenu select {
+              width: 150px;
+              height: 26px;
+          }
+    
+          /* Comment textarea */
+          #contact form .commentbox {
+              margin-top: 15px;
+              font-size: 14px;
+          }
+    
+          #contact form .commentbox label {
+              font-weight: bold;
+              display: block;
+              margin-bottom: 5px;
+          }
+    
+          #contact form .commentbox textarea {
+              width: 59%;
+              height: 180px;
+              border: 2px solid #999;
+              resize: vertical;
+          }
+    
+          #contact form .button {
+              width: 60%;
+              text-align: right;
+              margin-top: 15px;
+          }
+    
+          #contact form .button input {
+              background-color: #4977D1;
+              color: #fff;
+              border: none;
+              padding: 10px 32px;
+              font-weight: bold;
+              font-size: 14px;
+              text-transform: capitalize;
+          }
